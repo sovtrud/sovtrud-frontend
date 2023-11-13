@@ -1,3 +1,6 @@
-.title {
-    color: rgb(43, 43, 197);
-}
+@layer component{
+    .title {
+        color: rgb(43, 43, 197);
+        @apply font-semibold shadow-md text-yellow;
+    }    
+} 

@@ -2,3 +2,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @layer base {
+  :root {
+    --color-black: 26 29 33;
+    --color-light-black1: 38 43 49;
+    --color-light-black2: 70 79 89;
+    --color-yellow: 255 174 64;
+    --color-light-brown1: 202 202 201;
+    --color-light-brown2: 234 234 234;
+    --color-white: 255 255 255;
+  }
+} */

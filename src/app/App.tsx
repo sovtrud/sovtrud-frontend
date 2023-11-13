@@ -1,6 +1,6 @@
 import { Navigate, Route, Routes } from "react-router-dom";
-import "./App.css";
-import TestPage from "pages/TestPage";
+import TestPage from "@/pages/TestPage";
+import "./styles/App.scss";
 
 function App() {
   return (
