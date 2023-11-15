@@ -1,6 +1,6 @@
-@layer component{
-    .title {
-        color: rgb(43, 43, 197);
-        @apply font-semibold shadow-md text-yellow;
-    }    
-} 
+@import '../../../app/styles/colors.scss';
+
+
+.title {
+    color: $--color-yellow-primary;
+}    
