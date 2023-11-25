@@ -1,0 +1,70 @@
+.button.ant-btn.ant-btn-primary {
+  border-radius: 10px;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: none;
+}
+
+.button_type_accent.button.ant-btn.ant-btn-primary {
+  background-color: var(--color-yellow-primary);
+  &:hover {
+    background-color: var(--color-dark-yellow-primary);
+  }
+  &:active {
+    background-color: var(--color-dark-yellow-2-primary);
+  }
+}
+
+.button_type_primary.button.ant-btn.ant-btn-primary {
+  background-color: var(--color-light-brown);
+  color: var(--color-brown);
+  &:hover {
+    background-color: var(--color-light-brown);
+    border: 1px solid var(--color-brown);
+  }
+}
+
+.button_size_s.button_type_primary.button.ant-btn.ant-btn-primary {
+  background-color: white;
+  color: var(--color-yellow-primary);
+  border: 1px solid var(--color-yellow-primary);
+  &:hover {
+    background-color: var(--color-light-brown-2);
+    color: var(--color-light-brown-3);
+    border: none;
+  }
+}
+
+.button_size_s.button.ant-btn.ant-btn-primary {
+  min-width: 111px;
+  min-height: 35px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.button_size_m.button.ant-btn.ant-btn-primary {
+  min-width: 300px;
+  min-height: 42px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.button_size_l.button.ant-btn.ant-btn-primary {
+  min-width: 300px;
+  min-height: 48px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.button_size_xl.button.ant-btn.ant-btn-primary {
+  min-width: 334px;
+  min-height: 56px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}

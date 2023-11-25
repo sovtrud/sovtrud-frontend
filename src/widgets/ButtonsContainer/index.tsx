@@ -1,56 +1,55 @@
 import style from "./styles.module.scss";
 import ButtonWithText from "@/shared/ui/buttons/ButtonWithText";
-import { buttonSizes } from "@/app/constants/buttonSizes";
 
 export default function ButtonsContainer() {
   return (
     <div className={style.buttons}>
       <ButtonWithText //s
         type="accent"
-        size={buttonSizes.s}
+        size="s"
       >
         Далее
       </ButtonWithText>
       <ButtonWithText //m
         type="accent"
-        size={buttonSizes.m}
+        size="m"
       >
         Далее
       </ButtonWithText>
       <ButtonWithText //l
         type="accent"
-        size={buttonSizes.l}
+        size="l"
       >
         Далее
       </ButtonWithText>
       <ButtonWithText //xl
         type="accent"
-        size={buttonSizes.xl}
+        size="xl"
       >
         Далее
       </ButtonWithText>
 
       <ButtonWithText //s
         type="primary"
-        size={buttonSizes.s}
+        size="s"
       >
         Далее
       </ButtonWithText>
       <ButtonWithText //m
         type="primary"
-        size={buttonSizes.m}
+        size="m"
       >
         Далее
       </ButtonWithText>
       <ButtonWithText //l
         type="primary"
-        size={buttonSizes.l}
+        size="l"
       >
         Далее
       </ButtonWithText>
       <ButtonWithText //xl
         type="primary"
-        size={buttonSizes.xl}
+        size="xl"
       >
         Далее
       </ButtonWithText>
