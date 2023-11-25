@@ -44,7 +44,7 @@ export default function ButtonWithText(props: ButtonWithTextProps) {
   }
 
   function setBorder(type: string, size: string) {
-    if (type === "accent" && size === "s") {
+    if (type === "accent" || size === "s") {
       return "1px solid var(--color-yellow-primary)";
     } else {
       return "none";
