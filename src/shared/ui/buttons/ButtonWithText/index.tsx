@@ -84,13 +84,13 @@ export default function ButtonWithText(props: ButtonWithTextProps) {
         e.currentTarget.style.background = setHoverBackgroundColor(props.type);
         e.currentTarget.style.border = setHoverBorder(
           props.type,
-          props.size.size
+          props.size.size,
         );
       }}
       onMouseOut={(e) => {
         e.currentTarget.style.background = setBackgroundColor(
           props.type,
-          props.size.size
+          props.size.size,
         );
         e.currentTarget.style.border = setBorder(props.type, props.size.size);
       }}
