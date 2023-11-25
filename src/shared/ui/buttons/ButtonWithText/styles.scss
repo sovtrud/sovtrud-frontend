@@ -12,6 +12,9 @@
   &:hover {
     background-color: var(--color-dark-yellow-primary);
   }
+  &:active {
+    background-color: var(--color-dark-yellow-2-primary);
+  }
 }
 
 .button_type_primary.button.ant-btn.ant-btn-primary {
