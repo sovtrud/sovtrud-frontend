@@ -1,7 +1,19 @@
-$--color-black-primary: #1A1D21;
-$--color-light-black-primary: #262B31;
-$--color-light-black: #464F59;
-$--color-yellow-primary: #FFAE40;
-$--color-light-brown-primary: #CFC7C3;
-$--color-light-brown: #F2ECE8;
-$--color-white: #E6E7E9;
+:root {
+  --color-black-primary: #1a1d21;
+  --color-light-black-primary: #262b31;
+  --color-light-black: #464f59;
+  --color-yellow-primary: #ffae40;
+  --color-light-brown-primary: #cfc7c3;
+  --color-light-brown: #f2ece8;
+  --color-white: #e6e7e9;
+  --color-light-brown: #f8f8f8;
+  --color-brown: #687281;
+}
+
+$--color-black-primary: #1a1d21;
+$--color-light-black-primary: #262b31;
+$--color-light-black: #464f59;
+$--color-yellow-primary: #ffae40;
+$--color-light-brown-primary: #cfc7c3;
+$--color-light-brown: #f2ece8;
+$--color-white: #e6e7e9;
