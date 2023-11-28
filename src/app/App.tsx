@@ -10,6 +10,8 @@ function App() {
         components: {
           Input: {
             colorPrimary: "#FFAE40",
+            colorPrimaryHover: "#ff9c15",
+            colorPrimaryActive: "#f18e08",
             colorBgContainer: "#F8F8F8",
             borderRadius: 8,
           },
