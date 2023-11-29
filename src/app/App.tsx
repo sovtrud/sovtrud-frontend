@@ -9,11 +9,14 @@ function App() {
       theme={{
         components: {
           Input: {
-            colorPrimary: "#FFAE40",
-            colorPrimaryHover: "#ff9c15",
-            colorPrimaryActive: "#f18e08",
+            colorPrimary: "#cfc7c3",
+            // colorPrimaryHover:
+            hoverBorderColor: "#262b31",
+            activeBorderColor: "#cfc7c3",
+            // colorPrimaryActive:
             colorBgContainer: "#F8F8F8",
             borderRadius: 8,
+            activeShadow: "0 0 0 0 rgba(0, 0, 0, 0)",
           },
         },
       }}

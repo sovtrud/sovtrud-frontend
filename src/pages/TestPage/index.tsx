@@ -3,7 +3,6 @@ import style from "./styles/style.module.scss";
 import ButtonsContainer from "@/widgets/ButtonsContainer";
 import { Input } from "@/shared/ui/Input/Input";
 
-
 function TestPage() {
   return (
     <div>
@@ -15,8 +14,8 @@ function TestPage() {
       <Input placeholder="xxl" type="email" height="xxl" className="mb-4" />
       <Input placeholder="xxl" type="password" height="xxl" className="mb-4" />
       <Input placeholder="xl" type="text" height="xl" className="mb-4" />
-      <Input placeholder="m" type="text" height="m" className="mb-4" />      
-      <Input placeholder="l" type="search" height="l" className="mb-4" /> 
+      <Input placeholder="m" type="text" height="m" className="mb-4" />
+      <Input placeholder="l" type="search" height="l" className="mb-4" />
     </div>
   );
 }
