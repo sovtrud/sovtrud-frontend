@@ -10,11 +10,11 @@ function App() {
         components: {
           Input: {
             colorPrimary: "#cfc7c3",
-            // colorPrimaryHover:
-            hoverBorderColor: "#262b31",
+            colorPrimaryHover: "#ffae40",
+            hoverBorderColor: "#ffae40",
             activeBorderColor: "#cfc7c3",
-            // colorPrimaryActive:
-            colorBgContainer: "#F8F8F8",
+            colorPrimaryActive: "#cfc7c3",
+            colorBgContainer: "white",
             borderRadius: 8,
             activeShadow: "0 0 0 0 rgba(0, 0, 0, 0)",
           },

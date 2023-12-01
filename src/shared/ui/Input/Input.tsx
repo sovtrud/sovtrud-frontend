@@ -16,6 +16,16 @@ export const Input = ({ className, height, type, ...rest }: InputProps) => {
       />
     );
   }
+  if (type === "search") {
+    return (
+      <AntdInput.Search
+        className={`${className} input_size_${height} input_specific`}
+        type={type}
+        {...rest}
+      />
+    );
+  }
+
   return (
     <AntdInput
       className={`${className} input_size_${height} input_specific`}

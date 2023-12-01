@@ -5,17 +5,30 @@ import { Input } from "@/shared/ui/Input/Input";
 
 function TestPage() {
   return (
-    <div>
+    <div className="max-w-full">
       <h1 className={style.title}>Тестовая страница</h1>
       <DatePicker />
       <ButtonsContainer />
-      <Input placeholder="s" type="date" height="s" className="mb-4" />
-      <Input placeholder="s" type="tel" height="s" className="mb-4" />
-      <Input placeholder="xxl" type="email" height="xxl" className="mb-4" />
-      <Input placeholder="xxl" type="password" height="xxl" className="mb-4" />
-      <Input placeholder="xl" type="text" height="xl" className="mb-4" />
-      <Input placeholder="m" type="text" height="m" className="mb-4" />
-      <Input placeholder="l" type="search" height="l" className="mb-4" />
+      <div className="m-4">
+        <Input placeholder="s" type="date" height="s" className="mb-4" />
+        <Input placeholder="s" type="tel" height="s" className="mb-4" />
+        <Input placeholder="xxl" type="email" height="xxl" className="mb-4" />
+        <Input
+          placeholder="xxl"
+          type="password"
+          height="xxl"
+          className="mb-4"
+        />
+        <Input placeholder="xl" type="text" height="xl" className="mb-4" />
+        <Input placeholder="m" type="text" height="m" className="mb-4" />
+        <Input
+          placeholder="l"
+          type="search"
+          height="l"
+          size="large"
+          className="mb-4"
+        />
+      </div>
     </div>
   );
 }
