@@ -1,0 +1,125 @@
+// $--color-yellow-primary: #ffae40;
+// $--color-light-brown: #f2ece8;
+// $--color-light-brown-primary: #cfc7c3;
+// $--color-light-black-primary: #262b31;
+
+// .ant-input.css-dev-only-do-not-override-1ucp49p {
+//   margin-bottom: 8px;
+//   padding: 4px;
+//   border-radius: 8px;
+//   border-color: var(--color-light-brown-2);
+//   display:flex;
+//   &:active {
+//     border-color: var(--color-light-brown-3);
+//     border-width: 2px;
+//     box-shadow: none;
+//   }
+//   &:focus {
+//     box-shadow: none;
+//     border-color: var(--color-light-brown-3);
+//     border-width: 2px;
+//   }
+//   &:hover {
+//     border-color: var(--color-light-brown-3);
+//     border-width: 2px;
+//   }
+//   &:disabled {
+//     background-color: var(--color-light-brown);
+//   }
+// }
+.input_size_s.ant-input {
+  height: 26px;
+}
+
+.input_size_m.ant-input {
+  height: 34px;
+}
+
+.input_size_l.ant-input {
+  height: 46px;
+  font-size: 16px;
+}
+
+.input_size_xl.ant-input {
+  height: 50px;
+  font-size: 16px;
+}
+
+.input_size_xxl.ant-input {
+  height: 56px;
+  font-size: 18px;
+}
+
+.ant-btn.ss-dev-only-do-not-override-77n5y4.ant-btn-default.ant-btn-lg.ant-btn-icon-only.ant-input-search-button {
+  &:hover {
+    border-color: var(--color-light-black-primary);
+  }
+  &:active {
+    border-color: var(--color-light-brown-primary);
+  }
+}
+
+:where(.css-dev-only-do-not-override-77n5y4).ant-btn-default:not(:disabled):not(
+    .ant-btn-disabled
+  ) {
+  &:hover {
+    border-color: var(--color-light-black-primary);
+  }
+  &:active {
+    border-color: var(--color-light-brown-primary);
+  }
+}
+
+// .input_specific.ant-input[type="email"].css-dev-only-do-not-override-1ucp49p,
+// .input_specific.ant-input[type="password"].css-dev-only-do-not-override-1ucp49p {
+//   background-color: var(--color-light-brown);
+//   border-color: var(--color-yellow-primary);
+//   border-left-width: 4px;
+//   &:active {
+//     border-color: var(--color-dark-yellow-2-primary);
+//     border-width: 2px;
+//     box-shadow: none;
+//     border-left-width: 4px;
+//   }
+//   &:focus {
+//     box-shadow: none;
+//     border-color: var(--color-dark-yellow-2-primary);
+//     border-width: 2px;
+//     border-left-width: 4px;
+//   }
+//   &:hover {
+//     border-color: var(--color-dark-yellow-2-primary);
+//     border-width: 2px;
+//     border-left-width: 4px;
+//   }
+//   &:disabled {
+//     background-color: var(--color-light-brown-primary);
+//   }
+// }
+
+// .input[type="text"].ant-input.css-dev-only-do-not-override-1ucp49p {
+//   &:disabled {
+//     background-color: var(--color-light-brown);
+//   }
+// }
+
+// .input_specific.ant-input[type="date"].css-dev-only-do-not-override-1ucp49p {
+//   border-color: var(--color-light-brown-2);
+//   &:active {
+//     border-color: var(--color-light-brown-3);
+//     border-width: 2px;
+//     box-shadow: none;
+//   }
+//   &:focus {
+//     box-shadow: none;
+//     border-color: var(--color-light-brown-3);
+//     border-width: 2px;
+//   }
+//   &:hover {
+//     border-color: var(--color-light-brown-3);
+//     border-width: 2px;
+//   }
+//   &:disabled {
+//     background-color: var(--color-light-brown);
+//   }
+// }
