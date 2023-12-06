@@ -1,13 +1,36 @@
 import { Input as AntdInput, InputProps as AntdInputProps } from "antd";
+import "./styles.scss";
 
-export type InputProps = AntdInputProps;
+export type InputProps = AntdInputProps & {
+  height?: "s" | "m" | "l" | "xl" | "xxl";
+  type: string;
+};
 
-export const Input = ({ ...rest }: InputProps) => {
-  const style_base: string = "border-s-4 h-14 text-lg";
+export const Input = ({ className, height, type, ...rest }: InputProps) => {
+  if (type === "password") {
+    return (
+      <AntdInput.Password
+        className={`${className} input_size_${height} input_specific`}
+        type={type}
+        {...rest}
+      />
+    );
+  }
+  if (type === "search") {
+    return (
+      <AntdInput.Search
+        className={`${className} input_size_${height} input_specific`}
+        type={type}
+        {...rest}
+      />
+    );
+  }
 
-  //   if (statsus === "1") {
-  //     style += "bg-red-500";
-  //   }
-
-  return <AntdInput className={style_base} {...rest} />;
+  return (
+    <AntdInput
+      className={`${className} input_size_${height} input_specific`}
+      type={type}
+      {...rest}
+    />
+  );
 };

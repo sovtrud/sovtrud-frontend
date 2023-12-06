@@ -11,9 +11,9 @@ const SelectContainer = () => {
     "Группы сотрудников",
     "Техника и технологическое оборудование",
   ];
-//   function filterOption(inputValue, option) {
-//     return option.value.toLowerCase().includes(inputValue.toLowerCase());
-//   }
+  //   function filterOption(inputValue, option) {
+  //     return option.value.toLowerCase().includes(inputValue.toLowerCase());
+  //   }
   return (
     <CustomSelect
       size="large"
@@ -30,7 +30,7 @@ const SelectContainer = () => {
       onChange={(val) => console.log(val)}
       children={options}
       showSearch
-    //   filterOption={filterOption}
+      //   filterOption={filterOption}
     />
   );
 };
