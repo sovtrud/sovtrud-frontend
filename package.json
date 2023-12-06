@@ -9,6 +9,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "lint:fix": "npm run lint -- --fix",
     "format:fix": "prettier -wc src",
+    "format": "prettier -c src",
     "preview": "vite preview"
   },
   "dependencies": {
