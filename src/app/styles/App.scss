@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Inter";
+  src:
+    local("Inter Medium"),
+    local("Inter-Medium"),
+    url(../../assets/fonts/Inter-Medium.ttf) format(ttf),
+    url(../../assets/fonts/Inter-Medium.woff) format(woff),
+    url(../../assets/fonts/Inter-Medium.woff2) format(woff2);
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src:
+    local("Inter Regular"),
+    local("Inter-Regular"),
+    url(../../assets/fonts/Inter-Regular.ttf) format(ttf),
+    url(../../assets/fonts/Inter-Regular.woff) format(woff),
+    url(../../assets/fonts/Inter-Regular.woff2) format(woff2);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src:
+    local("Inter Light"),
+    local("Inter-Light"),
+    url(../../assets/fonts/Inter-Light.ttf) format(ttf),
+    url(../../assets/fonts/Inter-Light.woff) format(woff),
+    url(../../assets/fonts/Inter-Light.woff2) format(woff2);
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Inter";
+  src:
+    local("Inter SemiBold"),
+    local("Inter-SemiBold"),
+    url(../../assets/fonts/Inter-SemiBold.ttf) format(ttf),
+    url(../../assets/fonts/Inter-SemiBold.woff) format(woff),
+    url(../../assets/fonts/Inter-SemiBold.woff2) format(woff2);
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  font-family: Inter;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--color-brand-primary);
+}

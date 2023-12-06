@@ -2,6 +2,8 @@ import { DatePicker } from "antd";
 import style from "./styles/style.module.scss";
 import ButtonsContainer from "@/widgets/ButtonsContainer";
 import { Input } from "@/shared/ui/Input/Input";
+import IconsContainer from "@/widgets/IconsContainer";
+import TypographyContainer from "@/widgets/TypographyContainer";
 
 function TestPage() {
   return (
@@ -9,6 +11,10 @@ function TestPage() {
       <h1 className={style.title}>Тестовая страница</h1>
       <DatePicker />
       <ButtonsContainer />
+
+      <IconsContainer />
+      <TypographyContainer />
+
       <div className="m-4">
         <Input placeholder="s" type="date" height="s" className="mb-4" />
         <Input placeholder="s" type="tel" height="s" className="mb-4" />
