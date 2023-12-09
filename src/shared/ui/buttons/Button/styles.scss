@@ -1,0 +1,29 @@
+.button.ant-btn.ant-btn-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+.button.ant-btn.ant-btn-text.button_change-icon-fill {
+  &:hover path {
+    fill: var(--color-yellow-primary);
+  }
+}
+
+.button.ant-btn.ant-btn-text.button_change-icon-stroke {
+  &:hover path {
+    stroke: var(--color-yellow-primary);
+  }
+}
+
+.button.ant-btn.ant-btn-text.button_type_plus-square {
+  &:hover path {
+    fill: #687281;
+  }
+  &:hover rect {
+    stroke: #687281;
+  }
+}

@@ -1,0 +1,19 @@
+.button.ant-btn.ant-btn-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-light-black);
+  padding: 0;
+  &:hover {
+    background-color: transparent;
+    color: var(--color-yellow-primary);
+  }
+  &:hover path {
+    fill: var(--color-yellow-primary);
+  }
+}
+
+.button_type_withIcon.button.ant-btn.ant-btn-link {
+  flex-direction: row-reverse;
+  gap: 8px;
+}
