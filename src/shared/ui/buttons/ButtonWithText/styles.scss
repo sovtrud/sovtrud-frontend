@@ -5,6 +5,7 @@
   justify-content: center;
   align-items: center;
   box-shadow: none;
+  border: none;
 }
 
 .button_type_accent.button.ant-btn.ant-btn-primary {
@@ -15,15 +16,34 @@
   &:active {
     background-color: var(--color-dark-yellow-2-primary);
   }
+  &:disabled {
+    color: var(--color-light-brown-primary);
+    background-color: var(--color-light-brown);
+  }
+  &:disabled  path{
+    stroke: var(--color-light-brown-primary);
+  }
+}
+
+.button_type_accent.button.ant-btn.ant-btn-primary path {
+  stroke: white;
 }
 
 .button_type_primary.button.ant-btn.ant-btn-primary {
   background-color: var(--color-light-brown);
   color: var(--color-brown);
   &:hover {
-    background-color: var(--color-light-brown);
     border: 1px solid var(--color-brown);
   }
+  &:disabled {
+    color: var(--color-light-brown-2);
+    border: none;
+  }
+}
+
+.button_type_withIcon.button.ant-btn.ant-btn-primary {
+  flex-direction: row-reverse;
+  gap: 4px;
 }
 
 .button_size_s.button_type_primary.button.ant-btn.ant-btn-primary {
@@ -34,6 +54,11 @@
     background-color: var(--color-light-brown-2);
     color: var(--color-light-brown-3);
     border: none;
+  }
+  &:disabled {
+    background-color: transparent;
+    color: var(--color-light-brown-3);
+    border: 1px solid var(--color-light-brown-2);
   }
 }
 
@@ -67,4 +92,12 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
+}
+
+.button_size_task.button.ant-btn.ant-btn-primary {
+  min-width: 225px;
+  min-height: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
 }
