@@ -1,0 +1,31 @@
+.ant-picker.data-peacker {
+  border-color: var(--color-yellow-primary);
+}
+
+.ant-picker-dropdown {
+  .ant-picker-panel,
+  .ant-picker-date-panel,
+  .ant-picker-month-panel,
+  .ant-picker-year-panel {
+    button:hover {
+      color: var(--color-yellow-primary);
+      box-shadow: none;
+    }
+    .ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner {
+      background: var(--color-yellow-primary);
+    }
+    .ant-picker-content .ant-picker-cell-inner {
+      &::before {
+        border: 1px solid var(--color-yellow-primary);
+      }
+    }
+    .ant-picker-cell-selected .ant-picker-cell-inner {
+      background: var(--color-yellow-primary);
+    }
+  }
+  .ant-picker-footer {
+    .ant-picker-today-btn {
+      color: var(--color-yellow-primary);
+    }
+  }
+}

@@ -4,11 +4,13 @@ import ButtonsContainer from "@/widgets/ButtonsContainer";
 import { Input } from "@/shared/ui/Input/Input";
 import IconsContainer from "@/widgets/IconsContainer";
 import TypographyContainer from "@/widgets/TypographyContainer";
+import Calendar from "@/shared/ui/Calendar/Calendar";
 
 function TestPage() {
   return (
     <div className="max-w-full">
       <h1 className={style.title}>Тестовая страница</h1>
+      <Calendar />
       <DatePicker />
       <ButtonsContainer />
 
