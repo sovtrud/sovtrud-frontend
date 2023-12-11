@@ -35,9 +35,25 @@
   height: 34px;
 }
 
-.input_size_l.ant-input {
+.input_size_l.ant-input,
+.input_size_l.ant-input-search {
   height: 46px;
   font-size: 16px;
+
+  .ant-input-group.ant-input-wrapper .ant-input {
+    height: 100%;
+  }
+
+  .ant-input-group-addon .ant-btn {
+    height: 100%;
+    width: 46px;
+  }
+  .ant-btn-icon .anticon.anticon-search {
+    font-size: 20px;
+  }
+  .ant-input-group {
+    height: 100%;
+  }
 }
 
 .input_size_xl.ant-input {
@@ -50,23 +66,12 @@
   font-size: 18px;
 }
 
-.ant-btn.ss-dev-only-do-not-override-77n5y4.ant-btn-default.ant-btn-lg.ant-btn-icon-only.ant-input-search-button {
+.ant-btn.ant-input-search-button.ant-btn-icon-only {
   &:hover {
-    border-color: var(--color-light-black-primary);
+    border-color: var(--color-brown);
   }
   &:active {
-    border-color: var(--color-light-brown-primary);
-  }
-}
-
-:where(.css-dev-only-do-not-override-77n5y4).ant-btn-default:not(:disabled):not(
-    .ant-btn-disabled
-  ) {
-  &:hover {
-    border-color: var(--color-light-black-primary);
-  }
-  &:active {
-    border-color: var(--color-light-brown-primary);
+    border-color: var(--color-light-black);
   }
 }
 

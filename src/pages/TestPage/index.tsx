@@ -27,13 +27,7 @@ function TestPage() {
         />
         <Input placeholder="xl" type="text" height="xl" className="mb-4" />
         <Input placeholder="m" type="text" height="m" className="mb-4" />
-        <Input
-          placeholder="l"
-          type="search"
-          height="l"
-          size="large"
-          className="mb-4"
-        />
+        <Input placeholder="l" type="search" height="l" className="mb-4" />
       </div>
     </div>
   );
