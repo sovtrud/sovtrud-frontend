@@ -18,6 +18,11 @@ function App() {
             borderRadius: 8,
             activeShadow: "0 0 0 0 rgba(0, 0, 0, 0)",
           },
+          DatePicker: {
+            activeBorderColor: "#464f59",
+            hoverBorderColor: "#687281",
+            activeShadow: "0 0 0 0 rgba(0, 0, 0, 0)",
+          },
         },
       }}
     >
