@@ -5,5 +5,11 @@ import { TextAreaProps } from "antd/es/input";
 const { TextArea: TextArea1 } = AntdInput;
 
 export const TextArea = ({ className, ...rest }: TextAreaProps) => {
-  return <TextArea1 className={`${className}`} {...rest} />;
+  return (
+    <TextArea1
+      className={`${className}`}
+      autoSize={{ minRows: 3, maxRows: 6 }}
+      {...rest}
+    />
+  );
 };
