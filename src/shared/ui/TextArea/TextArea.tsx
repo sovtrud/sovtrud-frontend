@@ -4,7 +4,7 @@ import { TextAreaProps } from "antd/es/input";
 
 const { TextArea: TextArea1 } = AntdInput;
 
-export const TextArea = ({ className, ...rest }: TextAreaProps) => {
+export default function TextArea({ className, ...rest }: TextAreaProps) {
   return (
     <TextArea1
       className={`${className}`}
@@ -12,4 +12,4 @@ export const TextArea = ({ className, ...rest }: TextAreaProps) => {
       {...rest}
     />
   );
-};
+}

@@ -1,11 +1,12 @@
 import style from "./styles/style.module.scss";
 import ButtonsContainer from "@/widgets/ButtonsContainer";
-import { Input } from "@/shared/ui/Input/Input";
-import { DatePicker } from "@/shared/ui/DatePicker/DatePicker";
+import Input from "@/shared/ui/Input/Input";
+import DatePicker from "@/shared/ui/DatePicker/DatePicker";
 import IconsContainer from "@/widgets/IconsContainer";
 // import TypographyContainer from "@/widgets/TypographyContainer";
 import Calendar from "@/shared/ui/Calendar/Calendar";
-import { TextArea } from "@/shared/ui/TextArea/TextArea";
+import TextArea from "@/shared/ui/TextArea/TextArea";
+import Checkbox from "@/shared/ui/Checkbox/Checkbox";
 // import TypographyContainer from "@/widgets/TypographyContainer";
 
 function TestPage() {
@@ -20,6 +21,7 @@ function TestPage() {
       {/* <TypographyContainer /> */}
 
       <div className="m-4">
+        <Checkbox className="mb-4">Выбери меня</Checkbox>
         <TextArea className="mb-4" />
         <Input placeholder="s телефон" type="tel" height="s" className="mb-4" />
         <Input

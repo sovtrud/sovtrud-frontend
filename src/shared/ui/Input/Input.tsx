@@ -9,7 +9,12 @@ export type InputProps = AntdInputProps & {
   type: string;
 };
 
-export const Input = ({ className, height, type, ...rest }: InputProps) => {
+export default function Input({
+  className,
+  height,
+  type,
+  ...rest
+}: InputProps) {
   if (type === "password") {
     return (
       <AntdInput.Password
@@ -48,4 +53,4 @@ export const Input = ({ className, height, type, ...rest }: InputProps) => {
       {...rest}
     />
   );
-};
+}
