@@ -23,6 +23,11 @@ function App() {
             hoverBorderColor: "#687281",
             activeShadow: "0 0 0 0 rgba(0, 0, 0, 0)",
           },
+          Checkbox: {
+            colorPrimary: "#ffae40",
+            colorBorder: "#ffae40",
+            colorPrimaryHover: "#ffae40",
+          },
         },
       }}
     >

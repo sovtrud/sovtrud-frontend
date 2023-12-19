@@ -8,7 +8,11 @@ export type DatePickerProps = AntdDatePickerProps & {
   height?: "s" | "m";
 };
 
-export const DatePicker = ({ className, height, ...rest }: DatePickerProps) => {
+export default function DatePicker({
+  className,
+  height,
+  ...rest
+}: DatePickerProps) {
   return (
     <AntdDatePicker
       className={`${className} datepicker datepicker_size_${height}`}
@@ -16,4 +20,4 @@ export const DatePicker = ({ className, height, ...rest }: DatePickerProps) => {
       {...rest}
     />
   );
-};
+}
