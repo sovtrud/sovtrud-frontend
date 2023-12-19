@@ -1,2 +1,24 @@
-.checkbox-size {
+.checkbox_size_m,
+.checkbox_size_m span {
+  font-size: 14px;
+  .ant-checkbox-inner {
+    height: 20px;
+    width: 20px;
+    &::after {
+      height: 12px;
+      width: 7px;
+    }
+  }
+}
+.checkbox_size_l,
+.checkbox_size_l span {
+  font-size: 16px;
+  .ant-checkbox-inner {
+    height: 24px;
+    width: 24px;
+    &::after {
+      height: 15px;
+      width: 9px;
+    }
+  }
 }

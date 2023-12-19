@@ -21,7 +21,13 @@ function TestPage() {
       {/* <TypographyContainer /> */}
 
       <div className="m-4">
+        <Checkbox className="mb-4" size="m">
+          Выбери меня
+        </Checkbox>
         <Checkbox className="mb-4">Выбери меня</Checkbox>
+        <Checkbox className="mb-4" size="l">
+          Выбери меня
+        </Checkbox>
         <TextArea className="mb-4" />
         <Input placeholder="s телефон" type="tel" height="s" className="mb-4" />
         <Input
