@@ -1,0 +1,62 @@
+.header {
+  height: 192px;
+  padding: 55px 72px 55px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 8px solid var(--color-yellow-primary);
+  .headerInner {
+    display: flex;
+  }
+  .antBtn.exitButton {
+    position: absolute;
+    top: 18px;
+    right: 26px;
+    width: fit-content;
+    .exitButtonInner {
+      display: flex;
+      align-items: center;
+      font-size: 12px;
+      font-weight: 400;
+      color: var(--color-light-brown-3);
+      // transition: color 0.3s ease-in-out;
+      &:hover {
+        color: var(--color-yellow-primary);
+      }
+    }
+    .exitButtonText {
+      margin-right: 5px;
+    }
+    svg path {
+      fill: var(--color-light-brown-3);
+      // transition: color 0.3s ease-in-out;
+      &:hover {
+      }
+    }
+  }
+}
+.nav {
+  display: flex;
+  margin-left: 87px;
+}
+.btnMenuRight {
+  margin-left: 16px;
+}
+.navItem {
+  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-brown);
+    &.active p {
+      border-bottom: 1px solid var(--color-yellow-primary);
+    }
+  }
+}
+.person {
+  display: flex;
+  align-items: center;
+  .personButton {
+    margin-right: 20px;
+  }
+}

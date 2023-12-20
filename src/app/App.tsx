@@ -1,7 +1,6 @@
-import { Navigate, Route, Routes } from "react-router-dom";
-import TestPage from "@/pages/TestPage";
 import "./styles/App.scss";
 import { ConfigProvider } from "antd";
+import Router from "@/pages";
 
 function App() {
   return (
@@ -31,10 +30,7 @@ function App() {
         },
       }}
     >
-      <Routes>
-        <Route path="/" element={<TestPage />}></Route>
-        <Route path="*" element={<Navigate to="/" />} />
-      </Routes>
+      <Router />
     </ConfigProvider>
   );
 }
