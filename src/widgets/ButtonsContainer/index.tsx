@@ -5,6 +5,7 @@ import ButtonWithText from "@/shared/ui/buttons/ButtonWithText";
 import Button from "@/shared/ui/buttons/Button";
 import LinkButton from "@/shared/ui/buttons/LinkButton";
 import IconWithSvg from "@/shared/ui/icons/IconWithSvg";
+import SegmentedButton from "@/shared/ui/SegmentedButton";
 
 // icons
 import ArrowRight from "@/assets/icons/right.svg?react";
@@ -21,6 +22,7 @@ import Plus from "@/assets/icons/plus.svg?react";
 export default function ButtonsContainer() {
   return (
     <div className={style.buttons}>
+      <SegmentedButton />
       <Button className="button_type_plus-square">
         <IconWithSvg
           children={PlusSquare}
