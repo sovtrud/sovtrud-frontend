@@ -1,17 +1,46 @@
 .header {
   height: 192px;
-  padding: 55px 24px;
+  padding: 55px 72px 55px 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 8px solid var(--color-yellow-primary);
   .headerInner {
     display: flex;
   }
-  border-bottom: 8px solid var(--color-yellow-primary);
+  .antBtn.exitButton {
+    position: absolute;
+    top: 18px;
+    right: 26px;
+    width: fit-content;
+    .exitButtonInner {
+      display: flex;
+      align-items: center;
+      font-size: 12px;
+      font-weight: 400;
+      color: var(--color-light-brown-3);
+      // transition: color 0.3s ease-in-out;
+      &:hover {
+        color: var(--color-yellow-primary);
+      }
+    }
+    .exitButtonText {
+      margin-right: 5px;
+    }
+    svg path {
+      fill: var(--color-light-brown-3);
+      // transition: color 0.3s ease-in-out;
+      &:hover {
+      }
+    }
+  }
 }
 .nav {
   display: flex;
   margin-left: 87px;
+}
+.btnMenuRight {
+  margin-left: 16px;
 }
 .navItem {
   a {
