@@ -2,7 +2,7 @@ import React from "react";
 import { Menu as AntdMenu, MenuProps } from "antd";
 import "./styles.scss";
 
-import { Input } from "../Input/Input";
+import Input from "../Input/Input";
 import IconWithSvg, { SvgSize } from "../icons/IconWithSvg";
 import WorkHistory from "@/assets/icons/work_history_active.svg?react";
 import WorkFocusNormal from "@/assets/icons/workFocus_normal.svg?react";
