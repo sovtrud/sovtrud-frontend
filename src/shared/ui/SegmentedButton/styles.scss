@@ -1,16 +1,17 @@
-.ant-segmented {
+.segmented-button.ant-segmented {
   color: #808185;
   background-color: white;
   border: 0.5px solid var(--color-light-brown-3);
   padding: 0px;
+  max-width: 355px;
 }
 
-.ant-segmented-group {
+.segmented-button .ant-segmented-group {
   gap: 6px;
   margin: 6px;
 }
 
-.ant-segmented-item {
+.segmented-button .ant-segmented-item {
   border-radius: 4px;
   display: flex;
   align-items: center;
