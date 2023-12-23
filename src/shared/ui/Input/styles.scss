@@ -1,32 +1,3 @@
-// $--color-yellow-primary: #ffae40;
-// $--color-light-brown: #f2ece8;
-// $--color-light-brown-primary: #cfc7c3;
-// $--color-light-black-primary: #262b31;
-
-// .ant-input.css-dev-only-do-not-override-1ucp49p {
-//   margin-bottom: 8px;
-//   padding: 4px;
-//   border-radius: 8px;
-//   border-color: var(--color-light-brown-2);
-//   display:flex;
-//   &:active {
-//     border-color: var(--color-light-brown-3);
-//     border-width: 2px;
-//     box-shadow: none;
-//   }
-//   &:focus {
-//     box-shadow: none;
-//     border-color: var(--color-light-brown-3);
-//     border-width: 2px;
-//   }
-//   &:hover {
-//     border-color: var(--color-light-brown-3);
-//     border-width: 2px;
-//   }
-//   &:disabled {
-//     background-color: var(--color-light-brown);
-//   }
-// }
 .input_size_s.ant-input {
   height: 26px;
 }
@@ -35,9 +6,25 @@
   height: 34px;
 }
 
-.input_size_l.ant-input {
+.input_size_l.ant-input,
+.input_size_l.ant-input-search {
   height: 46px;
   font-size: 16px;
+
+  .ant-input-group.ant-input-wrapper .ant-input {
+    height: 100%;
+  }
+
+  .ant-input-group-addon .ant-btn {
+    height: 100%;
+    width: 46px;
+  }
+  .ant-btn-icon .anticon.anticon-search {
+    font-size: 20px;
+  }
+  .ant-input-group {
+    height: 100%;
+  }
 }
 
 .input_size_xl.ant-input {
@@ -45,81 +32,17 @@
   font-size: 16px;
 }
 
-.input_size_xxl.ant-input {
+.input_size_xxl.ant-input,
+.input_size_xxl.ant-input-password {
   height: 56px;
   font-size: 18px;
 }
 
-.ant-btn.ss-dev-only-do-not-override-77n5y4.ant-btn-default.ant-btn-lg.ant-btn-icon-only.ant-input-search-button {
+.ant-btn.ant-input-search-button.ant-btn-icon-only {
   &:hover {
-    border-color: var(--color-light-black-primary);
+    border-color: var(--color-brown);
   }
   &:active {
-    border-color: var(--color-light-brown-primary);
+    border-color: var(--color-light-black);
   }
 }
-
-:where(.css-dev-only-do-not-override-77n5y4).ant-btn-default:not(:disabled):not(
-    .ant-btn-disabled
-  ) {
-  &:hover {
-    border-color: var(--color-light-black-primary);
-  }
-  &:active {
-    border-color: var(--color-light-brown-primary);
-  }
-}
-
-// .input_specific.ant-input[type="email"].css-dev-only-do-not-override-1ucp49p,
-// .input_specific.ant-input[type="password"].css-dev-only-do-not-override-1ucp49p {
-//   background-color: var(--color-light-brown);
-//   border-color: var(--color-yellow-primary);
-//   border-left-width: 4px;
-//   &:active {
-//     border-color: var(--color-dark-yellow-2-primary);
-//     border-width: 2px;
-//     box-shadow: none;
-//     border-left-width: 4px;
-//   }
-//   &:focus {
-//     box-shadow: none;
-//     border-color: var(--color-dark-yellow-2-primary);
-//     border-width: 2px;
-//     border-left-width: 4px;
-//   }
-//   &:hover {
-//     border-color: var(--color-dark-yellow-2-primary);
-//     border-width: 2px;
-//     border-left-width: 4px;
-//   }
-//   &:disabled {
-//     background-color: var(--color-light-brown-primary);
-//   }
-// }
-
-// .input[type="text"].ant-input.css-dev-only-do-not-override-1ucp49p {
-//   &:disabled {
-//     background-color: var(--color-light-brown);
-//   }
-// }
-
-// .input_specific.ant-input[type="date"].css-dev-only-do-not-override-1ucp49p {
-//   border-color: var(--color-light-brown-2);
-//   &:active {
-//     border-color: var(--color-light-brown-3);
-//     border-width: 2px;
-//     box-shadow: none;
-//   }
-//   &:focus {
-//     box-shadow: none;
-//     border-color: var(--color-light-brown-3);
-//     border-width: 2px;
-//   }
-//   &:hover {
-//     border-color: var(--color-light-brown-3);
-//     border-width: 2px;
-//   }
-//   &:disabled {
-//     background-color: var(--color-light-brown);
-//   }
-// }

@@ -1,0 +1,21 @@
+.ellipse {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  background-color: #4ead40;
+  border-radius: 50%;
+  top: 70%;
+  right: 1%;
+  outline: 2px solid white;
+}
+.avatar {
+  position: relative;
+  .avatarInner {
+    background-color: #f5a53c;
+    color: white;
+    font-family: Inter;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+  }
+}
