@@ -4,6 +4,7 @@ import ButtonsContainer from "@/widgets/ButtonsContainer";
 import { Input } from "@/shared/ui/Input/Input";
 import IconsContainer from "@/widgets/IconsContainer";
 import TypographyContainer from "@/widgets/TypographyContainer";
+import Sidebar from "@/shared/ui/Sidebar";
 
 function TestPage() {
   return (
@@ -13,6 +14,7 @@ function TestPage() {
       <ButtonsContainer />
 
       <IconsContainer />
+      <Sidebar/>
       <TypographyContainer />
 
       <div className="m-4">
