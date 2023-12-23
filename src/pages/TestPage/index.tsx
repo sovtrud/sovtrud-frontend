@@ -14,7 +14,7 @@ function TestPage() {
       <ButtonsContainer />
 
       <IconsContainer />
-      <Sidebar/>
+      <Sidebar />
       <TypographyContainer />
 
       <div className="m-4">

@@ -16,7 +16,7 @@ function getItem(
   key: React.Key,
   icon?: React.ReactNode,
   children?: MenuItem[],
-  type?: "group"
+  type?: "group",
 ): MenuItem {
   return {
     key,
@@ -49,7 +49,7 @@ const items: MenuProps["items"] = [
           getItem("Электромонтеров", "a1"),
           getItem("Слесарные", "a2"),
           getItem("Инженеров", "a3"),
-        ]
+        ],
       ),
       getItem(
         "Сотрудники и департаменты",
@@ -60,7 +60,7 @@ const items: MenuProps["items"] = [
           getItem("Дежурный оперативно-диспетчерский", "b2"),
           getItem("Ремонтный", "b3"),
           getItem("Электротехнический", "b4"),
-        ]
+        ],
       ),
       getItem(
         "Техника и технологическое оборудование",
@@ -75,9 +75,9 @@ const items: MenuProps["items"] = [
             getItem("Option 1", "e1"),
             getItem("Option 2", "e2"),
           ]),
-        ]
+        ],
       ),
-    ]
+    ],
   ),
 ];
 
