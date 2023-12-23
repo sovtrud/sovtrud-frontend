@@ -1,0 +1,37 @@
+.segmented-button.ant-segmented {
+  color: #808185;
+  background-color: white;
+  border: 0.5px solid var(--color-light-brown-3);
+  padding: 0px;
+  max-width: 355px;
+}
+
+.segmented-button .ant-segmented-group {
+  gap: 6px;
+  margin: 6px;
+}
+
+.segmented-button .ant-segmented-item {
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  &:hover {
+    background-color: var(--color-light-brown);
+  }
+}
+
+.ant-segmented-item .ant-segmented-item-label {
+  height: 41px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.098px;
+}
+
+.ant-segmented-item-selected .ant-segmented-item-label {
+  background-color: var(--color-light-brown-2);
+  color: var(----color-brand-primary);
+  font-weight: 500;
+  border-radius: 4px;
+}
