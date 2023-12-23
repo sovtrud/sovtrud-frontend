@@ -11,6 +11,9 @@
 
 .sidebar .ant-menu .ant-menu-submenu-selected > .ant-menu-submenu-title {
   color: var(--color-light-black-primary);
+  svg g path {
+    fill: var(--color-light-black-primary);
+  }
 }
 
 .sidebar .ant-menu .ant-menu-item-selected .ant-menu-title-content {
